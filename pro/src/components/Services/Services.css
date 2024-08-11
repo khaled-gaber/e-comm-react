@@ -1,0 +1,14 @@
+.Services .ser_card {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    
+    padding: 0 20px;
+    
+}
+.Services .ser_card .ser_icon{
+    color: var(--main-color);
+    font-size: 20px;
+    margin-right: 10px;
+}

@@ -1,0 +1,19 @@
+
+.Category .cat_card{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    gap: 20px;
+    
+}
+.Category .cat_card img {
+    width: 70px;
+    height: 70px;
+    
+}
+.Category .title{
+    text-align: center;
+    color: var(--main-color);
+    font-size: 30px;
+    font-weight: 600;
+}

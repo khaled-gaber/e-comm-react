@@ -1,0 +1,55 @@
+.Footer { background-color: #3d464d;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.Footer  .get {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.Footer  .get p {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.Footer  .get b {
+    color: #fff;
+    font-size: 18px;
+}
+
+.Footer  .get .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    color: #fff;
+    font-size: 15px;
+}
+.Footer  .get .hello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Footer  p {
+    color: #fff;
+
+}
+.Footer  .get .hello input{
+    border-radius:5px ;
+    border: none;
+   
+}
+
+::placeholder{
+    font-size: 13px;
+    opacity: .7;
+    padding-left: 10px;
+   
+}

@@ -1,0 +1,96 @@
+.Header .sliding {
+
+}
+.men{
+background-image: linear-gradient(90deg, rgba(0,0,0,0.5914740896358543) 100%, rgba(0,0,0,1) 100%, rgba(0,0,0,0.4962359943977591) 100%),
+url(../../assets/imgs/carousel-1-B1coVWNc-B1coVWNc.jpg);
+height: 50vh;
+
+}
+.women{
+background-image:  linear-gradient(90deg, rgba(0,0,0,0.5914740896358543) 100%, rgba(0,0,0,1) 100%, rgba(0,0,0,0.4962359943977591) 100%),
+url(../../assets/imgs/carousel-2--2x9VnkY--2x9VnkY.jpg);
+height: 50vh;
+}
+.kids{
+background-image: linear-gradient(90deg, rgba(0,0,0,0.5914740896358543) 100%, rgba(0,0,0,1) 100%, rgba(0,0,0,0.4962359943977591) 100%),
+url(../../assets/imgs/carousel-3-CkLdEAwA-CkLdEAwA.jpg);
+
+height: 50vh;
+}
+.men div,
+.women div,
+.kids div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30px;
+    color: #fff;
+    gap: 15px;
+}
+.men div b,
+.women div b,
+.kids div b {
+font-size: 25px;
+}
+.men div p,
+.women div p,
+.kids div p {
+text-align: center;
+font-size: 15px;
+line-height: 1.8;
+}
+
+.btnn{
+    background-color: transparent;
+border: 2px solid #fff;
+color: #fff;
+cursor: pointer;
+padding: 10px 20px ;
+transition: .5s;
+}
+.btnn:hover{
+    background-color: var(--main-color)
+}
+.details{
+    height: 50vh;
+
+}
+.details .card_1{
+    background-image: url(../../assets/imgs/offer-1-DP1lQ_lP-DP1lQ_lP.jpg);
+    height: 25vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+    width: 360px;
+    gap: 10px;
+}
+.details .card_2{
+    background-image: url(../../assets/imgs/offer-2-Cly2vTNH-Cly2vTNH.jpg);
+    height: 25vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 360px;
+    gap: 10px;
+}
+.details .card_1 , .details .card_2 span{
+color: #fff;
+
+}
+.details .card_1 , .details .card_2 p{
+color: #fff;
+font-weight: 500;
+font-size: 15px;
+}

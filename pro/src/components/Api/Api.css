@@ -1,0 +1,91 @@
+.Api .head {
+    color: var(--main-color);
+    font-size: 30px;
+}
+.Api .parg{
+   opacity: .7;
+}
+.proccess{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.proccess .icon{
+background-color: var(--main-color);
+color: #fff;
+padding: 5px 7px;
+border-radius: 2px;
+font-size: 18px;
+}
+
+.one {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 13px;
+}
+.card_img{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_img img {
+    width: 150px;
+    height: 150px;
+}
+.one b {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+}
+ 
+.details_img{
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.details_img img{
+    width: 50%;
+}
+.description .tit{
+    color: var(--main-color);
+}
+.description{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    min-height: 400px;
+    background-color: #fff;
+    padding: 20px;
+}
+.description b:first-child{
+    color: var(--main-color);
+    font-size: 25px;
+
+}
+.description b:nth-child(4){
+    color: rgb(135, 207, 26);
+    font-size: 20px;
+    font-weight: normal;
+}
+.description strong {
+    font-size: 20px;
+}
+.description strong span {
+    text-decoration: underline;
+}
+.description p{
+    opacity: .7;
+    line-height: 1.5;
+}
+.btnn{
+    background-color: var(--main-color) !important;
+    color: #fff !important;
+}
+.btnn:hover{
+    background-color: #dbdb19 !important;
+}
